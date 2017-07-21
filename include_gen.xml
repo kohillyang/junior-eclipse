@@ -2,24 +2,44 @@
 <cdtprojectproperties>
 <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
 <language name="C Source File">
-<includepath>${ProjDirPath}\Drivers\CMSIS\Device\ST\STM32F4xx\Include</includepath>
-<includepath>${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</includepath>
-<includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\include</includepath>
 <includepath>${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc</includepath>
-<includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\bsp</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\app</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\RTE\Device\STM32F427II</includepath>
 <includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS</includepath>
-<includepath>${ProjDirPath}\Inc</includepath>
+<includepath>${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</includepath>
 <includepath>${ProjDirPath}\Drivers\CMSIS\Include</includepath>
+<includepath>${ProjDirPath}\Inc</includepath>
+<includepath>${ProjDirPath}\MDK-ARM</includepath>
+<includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\include</includepath>
+<includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F</includepath>
+<includepath>${ProjDirPath}\System</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\RTE\_chassis</includepath>
+<includepath>${ProjDirPath}\System\newlib\diag</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\RTE</includepath>
+<includepath>${ProjDirPath}\Drivers\CMSIS\Device\ST\STM32F4xx\Include</includepath>
+<includepath>${ProjDirPath}\Debug</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\chassis</includepath>
 </language>
 <language name="C++ Source File">
-<includepath>${ProjDirPath}\Drivers\CMSIS\Device\ST\STM32F4xx\Include</includepath>
-<includepath>${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</includepath>
-<includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\include</includepath>
 <includepath>${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc</includepath>
-<includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\bsp</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\app</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\RTE\Device\STM32F427II</includepath>
 <includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS</includepath>
-<includepath>${ProjDirPath}\Inc</includepath>
+<includepath>${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</includepath>
 <includepath>${ProjDirPath}\Drivers\CMSIS\Include</includepath>
+<includepath>${ProjDirPath}\Inc</includepath>
+<includepath>${ProjDirPath}\MDK-ARM</includepath>
+<includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\include</includepath>
+<includepath>${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F</includepath>
+<includepath>${ProjDirPath}\System</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\RTE\_chassis</includepath>
+<includepath>${ProjDirPath}\System\newlib\diag</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\RTE</includepath>
+<includepath>${ProjDirPath}\Drivers\CMSIS\Device\ST\STM32F4xx\Include</includepath>
+<includepath>${ProjDirPath}\Debug</includepath>
+<includepath>${ProjDirPath}\MDK-ARM\chassis</includepath>
 </language>
 
 </section>

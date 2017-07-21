@@ -1,5 +1,4 @@
-header = '''
-<?xml version="1.0" encoding="UTF-8"?>
+header = '''<?xml version="1.0" encoding="UTF-8"?>
 <cdtprojectproperties>
 <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
 '''

@@ -62,14 +62,24 @@
 							</tool>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.2043092597" name="Cross ARM GNU C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.588238567" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\CMSIS\Device\ST\STM32F4xx\Include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\bsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\app&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\RTE\Device\STM32F427II&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\CMSIS\Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\System&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\RTE\_chassis&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\System\newlib\diag&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\RTE&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\CMSIS\Device\ST\STM32F4xx\Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Debug&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\chassis&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1073989243" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="DEBUG"/>
@@ -83,14 +93,24 @@
 							</tool>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1816724112" name="Cross ARM GNU C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.145868499" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\CMSIS\Device\ST\STM32F4xx\Include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\bsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\app&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\RTE\Device\STM32F427II&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\CMSIS\Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\System&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\RTE\_chassis&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\System\newlib\diag&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\RTE&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Drivers\CMSIS\Device\ST\STM32F4xx\Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Debug&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\MDK-ARM\chassis&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.noexceptions.223410832" name="Do not use exceptions (-fno-exceptions)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.noexceptions" useByScannerDiscovery="true" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nortti.877615982" name="Do not use RTTI (-fno-rtti)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nortti" useByScannerDiscovery="true" value="true" valueType="boolean"/>
@@ -149,7 +169,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="MDK-ARM/RTE|MDK-ARM/RTE/Device/STM32F427II/system_stm32f4xx.c|MDK-ARM/RTE/Device/STM32F427II/startup_stm32f427_437xx.s|MDK-ARM/bsp/i2c_oled.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -310,7 +330,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="MDK-ARM/RTE|MDK-ARM/RTE/Device/STM32F427II/system_stm32f4xx.c|MDK-ARM/RTE/Device/STM32F427II/startup_stm32f427_437xx.s|MDK-ARM/bsp/i2c_oled.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
