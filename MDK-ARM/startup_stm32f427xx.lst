@@ -915,8 +915,8 @@ ARM Macro Assembler    Page 15
 
 
 s\CMSIS\Device\ST\STM32F4xx\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine=
-"__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 524" --predefine="STM32F411
-xE SETA 1" --list=startup_stm32f427xx.lst startup_stm32f427xx.s
+"__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 524" --predefine="STM32F427
+xx SETA 1" --list=startup_stm32f427xx.lst startup_stm32f427xx.s
 
 
 

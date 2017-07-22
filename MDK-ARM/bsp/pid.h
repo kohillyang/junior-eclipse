@@ -24,7 +24,7 @@ enum
     POSITION_PID,
     DELTA_PID,
 };
-typedef struct
+typedef struct _k_pid_t
 {
     float p;
     float i;
@@ -55,14 +55,14 @@ typedef struct
     uint32_t MaxOutput;
     uint32_t IntegralLimit;
 
-    void (*f_param_init)(struct __pid_t* pid, 
+    void (*f_param_init)(struct _k_pid_t* pid, 
                          uint32_t        pid_mode,
                          uint32_t        maxOutput,
                          uint32_t        integralLimit,
                          float           p,
                          float           i,
                          float           d);
-    void (*f_pid_reset)(struct __pid_t* pid, float p, float i, float d);
+    void (*f_pid_reset)(struct _k_pid_t* pid, float p, float i, float d);
  
 } k_pid_t;
 
